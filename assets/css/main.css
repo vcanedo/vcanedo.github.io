@@ -2272,6 +2272,7 @@ input, select, textarea {
 	#contact {
 		overflow: hidden;
 		padding-bottom: 0;
+    /* background-color: #39454b; */
 	}
 
 		#contact .box {
