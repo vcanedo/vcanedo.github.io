@@ -85,7 +85,11 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+    /* background: #ffffff; */
+    /* option to change background to a gradient */
+    background: rgb(248,125,252);
+    background: linear-gradient(0deg, rgba(248,125,252,1) 17%, rgba(100,171,255,1) 100%);
+
 		height: 100%;
 		min-width: 320px;
 	}
