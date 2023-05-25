@@ -87,8 +87,11 @@ input, select, textarea {
 	body {
     /* background: #ffffff; */
     /* option to change background to a gradient */
-    background: rgb(248,125,252);
-    background: linear-gradient(0deg, rgba(248,125,252,1) 17%, rgba(100,171,255,1) 100%);
+    background: rgb(243,164,255);
+    background: -moz-linear-gradient(0deg, rgba(243,164,255,1) 0%, rgba(152,200,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(243,164,255,1) 0%, rgba(152,200,255,1) 100%);
+    background: linear-gradient(0deg, rgba(243,164,255,1) 0%, rgba(152,200,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f3a4ff",endColorstr="#98c8ff",GradientType=1);
 
 		height: 100%;
 		min-width: 320px;
@@ -2242,7 +2245,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		/* background: url("images/overlay.png"), url("../../images/intro.jpg"); */
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2252,19 +2255,21 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		/* background: url("images/overlay.png"), url("../../images/one.jpg"); */
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+    height: 490px;
 	}
 
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		/* background: url("images/overlay.png"), url("../../images/two.jpg"); */
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+    height: 490px;
 	}
 
 /* Contact */
@@ -2309,3 +2314,11 @@ input, select, textarea {
 			}
 
 		}
+
+    .gradient {
+      background: rgb(243,164,255);
+background: -moz-linear-gradient(0deg, rgba(243,164,255,1) 0%, rgba(152,200,255,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(243,164,255,1) 0%, rgba(152,200,255,1) 100%);
+background: linear-gradient(0deg, rgba(243,164,255,1) 0%, rgba(152,200,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f3a4ff",endColorstr="#98c8ff",GradientType=1);
+    }
