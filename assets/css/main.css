@@ -700,9 +700,10 @@ input, select, textarea {
 			.button.down.anchored,
 			button.down.anchored {
 				bottom: 0;
-				border-bottom: 0;
-				border-radius: 3em 3em 0 0;
-				height: 4.5em;
+        border: solid 2px #e5e6e7;
+        border-radius: 50%;
+        width: 5em;
+        height: 5em;
 				margin-left: -2.5em;
 			}
 
@@ -2044,7 +2045,7 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #ffffff;
+				/* background: #ffffff; */
 			}
 
 			.main.style3.secondary {
@@ -2259,7 +2260,7 @@ input, select, textarea {
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-    height: 490px;
+    height: 500px;
 	}
 
 /* Two */
@@ -2269,7 +2270,7 @@ input, select, textarea {
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-    height: 490px;
+    height: 500px;
 	}
 
 /* Contact */
@@ -2315,10 +2316,10 @@ input, select, textarea {
 
 		}
 
-    .gradient {
-      background: rgb(243,164,255);
-background: -moz-linear-gradient(0deg, rgba(243,164,255,1) 0%, rgba(152,200,255,1) 100%);
-background: -webkit-linear-gradient(0deg, rgba(243,164,255,1) 0%, rgba(152,200,255,1) 100%);
-background: linear-gradient(0deg, rgba(243,164,255,1) 0%, rgba(152,200,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f3a4ff",endColorstr="#98c8ff",GradientType=1);
-    }
+  .gradient {
+    background: rgb(67,156,251);
+    background: -moz-linear-gradient(0deg, rgba(67,156,251,1) 0%, rgba(241,135,251,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(67,156,251,1) 0%, rgba(241,135,251,1) 100%);
+    background: linear-gradient(0deg, rgba(67,156,251,1) 0%, rgba(241,135,251,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#439cfb",endColorstr="#f187fb",GradientType=1);
+  }
