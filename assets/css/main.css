@@ -2353,3 +2353,7 @@ input, select, textarea {
     background: linear-gradient(0deg, rgba(67,156,251,1) 0%, rgba(241,135,251,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#439cfb",endColorstr="#f187fb",GradientType=1);
   }
+
+  .work-content p, .work-content h2 {
+    color: #fff;
+  }
