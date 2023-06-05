@@ -1180,6 +1180,16 @@ input, select, textarea {
 			border: 0;
 		}
 
+    #intro .icons a {
+			font-size: 1.8em;
+      transition: .3s;
+		}
+
+    #intro .icons a:hover {
+			font-size: 1.8em;
+      color: #6269cd;
+		}
+
 /* Sections/Article */
 
 	header {
@@ -1841,7 +1851,7 @@ input, select, textarea {
     -ms-transform: scale(1.05);
     transform: scale(1.05);
     z-index: 1000;
-    
+
     /* box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.2); */
     /* transition: .3s; */
   }
