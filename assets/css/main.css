@@ -663,7 +663,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #1B181F;
+		background-color: #292929;
 		border-radius: 3.5em;
 		color: #beb9b0;
 		cursor: pointer;
@@ -720,7 +720,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
+			background-color: #bf0edb;
 		}
 
 		input[type="button"]:active,
@@ -2309,7 +2309,7 @@ input, select, textarea {
 		padding-bottom: 0;
     background-color: #181A1B;
     padding-top: 24px;
-    color: #39454b;
+    color: #BEB9B0;
 	}
 
 		#contact .box {
