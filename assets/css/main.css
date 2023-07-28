@@ -2347,11 +2347,11 @@ input, select, textarea {
 		}
 
   .gradient {
-    background: rgb(67,156,251);
-    background: -moz-linear-gradient(0deg, rgba(67,156,251,1) 0%, rgba(241,135,251,1) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(67,156,251,1) 0%, rgba(241,135,251,1) 100%);
-    background: linear-gradient(0deg, rgba(67,156,251,1) 0%, rgba(241,135,251,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#439cfb",endColorstr="#f187fb",GradientType=1);
+    background: rgb(6,79,162);
+    background: -moz-linear-gradient(0deg, rgba(6,79,162,1) 0%, rgba(110,4,121,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(6,79,162,1) 0%, rgba(110,4,121,1) 100%);
+    background: linear-gradient(0deg, rgba(6,79,162,1) 0%, rgba(110,4,121,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#064fa2",endColorstr="#6e0479",GradientType=1);
   }
 
   .work-content p, .work-content h2 {
