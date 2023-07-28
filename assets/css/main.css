@@ -2372,7 +2372,8 @@ input, select, textarea {
     color: #ffffff;
   }
 
-  #footer:hover {
+  #footer:hover,
+  #contact:hover + #footer {
     transition: .2s;
     color: #bf0edb;
   }
