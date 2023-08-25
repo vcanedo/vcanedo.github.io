@@ -118,6 +118,14 @@ function addLights() {
 
 function createWalter() {
     walter = new Walter();
+
+    walter.head.scale.set(0.5, 0.5, 0.5);
+    walter.body.scale.set(0.5, 0.5, 0.5);
+
+
+    walter.threegroup.position.y = 500;
+    walter.threegroup.position.z = 100;
+    walter.head.position.y = 35;
     scene.add(walter.threegroup);
 }
 
