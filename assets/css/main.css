@@ -2520,3 +2520,29 @@ input, select, textarea {
   background-image: radial-gradient(#00d2ff, #3a7bd5); */
   /* background-color: #6D0479; */
 }
+
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.hover-text{
+  display: inline-block;
+}
+
+.hover-text:hover {
+  animation: tilt 0.2s;
+}
