@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <!-- <link rel="manifest" href="/site.webmanifest"> -->
 	</head>
 	<body class="is-preload">
 
@@ -39,12 +39,12 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content">
 					<header>
-            <img src="images/thumbs/profile-image.jpg" alt="Profile image" style="width: 150px; border-radius: 50%;">
+            <img id="avatar" src="images/thumbs/profile-image.jpg" alt="Profile image">
             <p class="darker">
               victorcanedo1@hotmail.com
             </p>
 						<h2>
-              I'm Victor Canedo, <br />
+              I'm <div class="hover-text">Victor Canedo</div>, <br />
               Full Stack Developer
             </h2>
 					</header>
@@ -109,7 +109,7 @@
 						<p>
               <!-- probably not needed -->
               A look at some of the projects I did during my learning phase. <br />
-              All of these can be found on my GitHub <a href="https://github.com/vcanedo" target="_blank" class="icon brands fa-github" style="color: #beb9b0;"><span class="label">GitHub</span></a>
+              All of these can be found on my GitHub <span class="animated-element"><a href="https://github.com/vcanedo" target="_blank" class="icon brands fa-github" style="color: #beb9b0;"><span class="label">GitHub</span></a></span>
             </p>
 					</header>
 
@@ -176,7 +176,7 @@
     <!-- <canvas id="background"></canvas> -->
 
     <!-- 3D Walter White -->
-    <div id="breakingbad" ></div>
+    <div id="breakingbad"><div class="text">Click and Hold</div></div>
 
 		<!-- Contact -->
 			<section id="contact" class="main style3 secondary">
@@ -233,7 +233,8 @@
 			<script src="assets/js/main.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
       <!-- <script src="assets/js/3d-background.js"></script> -->
-      <script src="assets/js/3d-breaking-bad.js"></script>
+      <script src="assets/js/3d_Breaking_Bad.js"></script>
+      <script src="assets/js/animated_Text.js"></script>
 
 	</body>
 </html>
