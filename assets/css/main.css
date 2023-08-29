@@ -2480,7 +2480,6 @@ input, select, textarea {
   overflow: hidden;
 }
 
-/* animate come from under to center */
 @keyframes translate {
   0% {
     opacity: 0;
@@ -2493,7 +2492,7 @@ input, select, textarea {
 }
 
 .text {
-  color: rgb(110,4,121);
+  color: #ffff00/* rgb(110,4,121) */;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2545,4 +2544,31 @@ input, select, textarea {
 
 .hover-text:hover {
   animation: tilt 0.2s;
+}
+
+@keyframes hop {
+  0% {
+      transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.animated-text {
+  display: inline-block;
+}
+
+.animate {
+  animation: hop 0.7s 1s ease-in-out 1 alternate;
+  display: inline-block;
 }

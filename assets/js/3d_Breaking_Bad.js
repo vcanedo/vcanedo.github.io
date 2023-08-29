@@ -87,14 +87,10 @@ function touchmove(e) {
 
 function mouseup(e) {
     isUp = false;
-    console.log(isUp)
-
 }
 
 function mousedown(e) {
     isUp = true;
-    console.log(isUp)
-
 }
 
 function addLights() {
