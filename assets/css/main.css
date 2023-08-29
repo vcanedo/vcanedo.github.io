@@ -2355,6 +2355,7 @@ input, select, textarea {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#064fa2",endColorstr="#6e0479",GradientType=1);
   }
 
+
   .work-content p, .work-content h2 {
     color: #beb9b0;
   }
@@ -2378,7 +2379,33 @@ input, select, textarea {
     color: #bf0edb;
   }
 
-  #intro .content img:hover {
+  @keyframes spinHop {
+    0% {
+        transform: rotate(0deg);
+    }
+    45% {
+      transform: rotate(360deg);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+    75% {
+      transform: translateY(0);
+    }
+    90% {
+      transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
+
+  #avatar {
+    width: 150px; border-radius: 50%;
+    animation: spinHop .7s .9s ease-in-out 1 alternate;
+  }
+
+  #avatar:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
