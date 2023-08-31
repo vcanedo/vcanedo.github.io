@@ -2592,7 +2592,7 @@ input, select, textarea {
   justify-content: center;
   align-items: center;
   background-color: #000;
-  animation: fadeout 1s 1.4s ease-out 1 forwards;
+  animation: fadeout 1.4s 2s ease-out 1 forwards;
 }
 
 .intro-animation p {
