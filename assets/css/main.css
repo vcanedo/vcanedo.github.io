@@ -2402,7 +2402,7 @@ input, select, textarea {
 
   #avatar {
     width: 150px; border-radius: 50%;
-    animation: spinHop .7s .9s ease-in-out 1 alternate;
+    animation: spinHop .7s 2s ease-in-out 1 alternate;
   }
 
   #avatar:hover {
@@ -2505,8 +2505,8 @@ input, select, textarea {
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
-
 }
+
 #breakingbad:hover .text {
   display: block;
   animation: translate 1s;
@@ -2569,6 +2569,33 @@ input, select, textarea {
 }
 
 .animate {
-  animation: hop 0.7s 1s ease-in-out 1 alternate;
+  animation: hop 0.7s 1.4s ease-in-out 1 alternate;
   display: inline-block;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -5;
+  }
+}
+
+.intro-animation {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  animation: fadeout 1s 1.4s ease-out 1 forwards;
+}
+
+.intro-animation p {
+  padding-top: 0px;
+  padding-bottom: 100px;
 }
